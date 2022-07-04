@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        
+        <!--==================== SWIPER CSS ====================-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        <link rel="stylesheet" href="assets/vendor/font-awesome/css/font-awesome.min.css">
+        <title>Preethi</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Preethi</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#experience" class="nav__link">Experience</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Padala Preethi<br>I'm a <span class="typing" style="color: teal"></span><br></h1>
+                    <a href="https://drive.google.com/file/d/1tA0RUOAnCWKeGEuJq4vWd5casTaxPJh5/view?usp=sharing" target="_blank" class="button">Check Out My Resume</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/padala-preethi" target="_blank" class="home__social-icon"><i class="bx bxl-linkedin"></i></a>
+                    <a href="https://www.github.com/padalapreethi" target="_blank" class="home__social-icon"><i class="bx bxl-github"></i></a>
+                    <a href="mailto:padalapreethi.nitk@gmail.com" target="_blank" class="home__social-icon"><i class="bx bxl-google"></i></a>
+                </div>
+
+                <div id="lead-overlay"></div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/about.jpeg" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">Hi, I'm Padala Preethi</h2>
+                        <p class="about__text">I'm a Software Engineer, currently working at Epsilon, Bangalore. I completed my Bachelor's degree in Information Technology at National Institute Of Technology Karnataka, Surathkal. I believe in the power of programming to transform the lives of people around the world. There's a lot more to learn, yet more problems to solve and applications to build.</p>           
+                
+                    </div>                                  
+                </div>
+            </section>
+
+            <!--======Experience=======-->
+            <div id="experience" class="background-alt">
+                <h2 class="section-title">Experience</h2>
+                <div id="experience-timeline">
+                    <div class="vtimeline-point"><div class="vtimeline-icon"><i class="fa fa-map-marker"></i></div><div class="vtimeline-block"><span class="vtimeline-date">July 2019 - present</span><div data-date="September 2015 – September 2016" class="vtimeline-content">
+                        <h3>Software Engineer 2</br>Epsilon, Bangalore</h3>
+                        <p class = "about__text">
+                            Developing web based multi tenant applications that are used by North American Automobile
+                            dealers to provide digital marketing solutions like Direct Mail, Email, Digital and Social Media to their
+                            customers. Experience developing backend API calls using .NET Core with MySQl database
+                            and Front End designed using Vue.js and Typescript.
+                        </p>
+                    </div></div></div>
+        
+                    <div class="vtimeline-point"><div class="vtimeline-icon"><i class="fa fa-map-marker"></i></div><div class="vtimeline-block"><span class="vtimeline-date">May 2018 - July 2018</span><div data-date="September 2015 – September 2016" class="vtimeline-content">
+                        <h3>Software Intern</br> WalmartLabs, Bangalore</h3>
+                        <p class="about__text">
+                            Built a Maven application for the Data Foundation Team of Strati-Walmart, that will help programmers
+                            acquainted with relational databases to model and build scalable applications with sharding feature of data
+                            for CloudRDBMS. Wrote helper functions for testloading of this persistence API.   
+                        </p>
+                    </div></div></div>
+        
+                    <div class="vtimeline-point"><div class="vtimeline-icon"><i class="fa fa-map-marker"></i></div><div class="vtimeline-block"><span class="vtimeline-date">May 2017 – July 2017</span><div data-date="September 2015 – September 2016" class="vtimeline-content">
+                        <h3>Software Intern </br> Prospecta Technologies, Visakhapatnam</h3>
+                        <p class="about__text">
+                            Built login and registration modules for a School Bus Tracking Application using Android. Used MySql
+                            database for storing user information and SharedPreferences for storing Temporary Data. Used Retrofitt
+                            networking library and fragments instead of activities to facilitate less consumption of space.    
+                        </p>
+                    </div></div></div>
+                </div>
+            </div>
+          
+            <!--================SKILLS SECTION=======================-->
+            <section class="skills section" id="work">
+                <h2 class="section-title">Skills</h2>
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-python skills__icon'></i>
+                                <span class="skills__name">C#, ASP.NET CORE</span>
+                            </div>
+                            <div class="skills__bar skills__1">
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-python skills__icon'></i>
+                                <span class="skills__name">JAVA, SPRING BOOT, HIBERNATE</span>
+                            </div>
+                            <div class="skills__bar skills__2">
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-java skills__icon'></i>
+                                <span class="skills__name">PYTHON</span>
+                            </div>
+                            <div class="skills__bar skills__4">
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <span class="skills__name">C++</span>
+                            </div>
+                            <div class="skills__bar skills__4">
+                            </div>
+                        </div>
+                    </div>
+                    <div>                        
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <span class="skills__name">HTML5</span>
+                            </div>
+                            <div class="skills__bar skills__2">
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <span class="skills__name">CSS3</span>
+                            </div>
+                            <div class="skills__bar skills__3">
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <span class="skills__name">JAVASCRIPT</span>
+                            </div>
+                            <div class="skills__bar skills__4"></div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <span class="skills__name">MYSQL</span>
+                            </div>
+                            <div class="skills__bar skills__4">                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div></div>
+            </section>
+            <!--======================Projects========================-->
+            <section class="portfolio section">
+                <h2 class="section-title">Featured Projects</h2></section>
+                <div class="portfolio__container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="portfolio__content grid swiper-slide">
+                        <center>
+                            <img src="./assets/img/portfolio1.png" alt="" class="portfolio__img">
+                            <div class="portfolio_">
+                                <h3 class="portfolio__title">Adaptive Mask Modelling Driving Assistance System</h3>
+                                <p class="portfolio__description">A vision-based Driving Assistance System,
+                                    which processes a panoramic-front view and generates robust & reliable proximity triggers along with co-relative
+                                    navigation suggestions</p>
+                                <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9239270"  target="_blank"class="button button--flex button--small portfolio__button">
+                                    More Info
+                                </br>
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </center>
+                        </div>
+                        <div class="portfolio__content grid swiper-slide">
+                            <center>
+                            <img src="./assets/img/portfolio3.png" alt="" class="portfolio__img">
+                            <div class="portfolio_">
+                                <h3 class="portfolio__title">Drowsy Driver Detection</h3>
+                                <p class="portfolio__description"> A drowsy driver detection system using deep learning methods like convolution neural networks. Imple-
+                                    mented using Keras library and OpenCV.</p>
+                                <a href="https://github.com/padalapreethi" target="_blank"class="button button--flex button--small portfolio__button">
+                                    More Info
+                                <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </center>
+                        </div>
+                        <div class="portfolio__content grid swiper-slide">
+                            <center>
+                            <img src="./assets/img/portfolio2.png" alt="" class="portfolio__img">
+                            <div class="portfolio_">
+                                <h3 class="portfolio__title">Smart Irrigation System</h3>
+                                <p class="portfolio__description">A automated smart irrigation system is developed using cloud computing and internet of things. The use case provides flexibility to farmers for monitoring the farms in real time using the farmer’s cockpit and a competent mechanism is defined
+                                    for effective utilization of excessive water.</p>
+                                <a href="https://link.springer.com/chapter/10.1007/978-981-13-1217-5_20" target="_blank" class="button button--flex button--small portfolio__button">
+                                    More Info
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                             </div>
+                            </center>
+                        </div>
+                        <div class="portfolio__content grid swiper-slide">
+                            <center>
+                            <img src="./assets/img/portfolio4.png" alt="" class="portfolio__img">
+                            <div class="portfolio_">
+                                <h3 class="portfolio__title">MetaFusion, A MetaSearch Engine using GA </h3>
+                                <p class="portfolio__description">The metasearch engine gets bing and google search results, uses Fuzzy Analytical Hierarchy Process (FAHP) along with Genetic algorithm to retrieve comprehensive results.
+                                </p>
+                                <a href="https://github.com/padalapreethi" target="_blank" class="button button--flex button--small portfolio__button">
+                                    More Info
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                             </div>
+                             </center>
+                        </div>
+                        <div class="portfolio__content grid swiper-slide">
+                            <center>
+                            <img src="./assets/img/portfolio5.png" alt="" class="portfolio__img">
+                            <div class="portfolio_">
+                                <h3 class="portfolio__title">Mitosis Detection Using CNN</h3>
+                                <p class="portfolio__description">Images extracted using Clustering Based segmentation and CNN is used here for extracting 
+                                    distinct features and PCA is used for dimension reduction process and classification by SVM</p>
+                                <a href="https://github.com/padalapreethi" target="_blank" class="button button--flex button--small portfolio__button">
+                                    More Info
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                             </div>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next">
+                        <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                    </div>
+                </br></br>
+                    <div class="swiper-pagination"></div>  
+                </div>                    
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Get In Touch</h2>
+                <center>
+                <p> I'm currently looking for full time Software Engineering or Machine Learning Oppurtunites!</p>
+                <p> Let me know if you are looking to hire or if you have any questions about me. </p>
+                </center>
+
+                <div class="contact__container bd-grid">
+                    <form action="https://formspree.io/f/xrgjwzpw" method="post" class="contact__form">
+                        <input type="text" placeholder="Name" class="contact__input">
+                        <input type="mail" placeholder="Email" class="contact__input">
+                        <textarea name="" placeholder="Type Your Message" id="" cols="0" rows="10" class="contact__input"></textarea>
+                        <input type="button" value="Send" class="contact__button button">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <div class="footer__social">
+                <a href="https://www.linkedin.com/in/padala-preethi" target="_blank" class="footer__icon"><i class="bx bxl-linkedin"></i></a>
+                <a href="https://www.github.com/padalapreethi" target="_blank" class="footer__icon"><i class="bx bxl-github"></i></a>
+                <a href="mailto:padalapreethi.nitk@gmail.com" target="_blank" class="footer__icon"><i class="bx bxl-google"></i></a>
+            </div>
+            <p class="footer__copy">&#169;2022-2023 All rigths reserved</p>
+        </footer>
+
+
+        <!--===== JS Files =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="assets/js/swiper-bundle.min.js"></script>
+        <script src="assets/js/main.js"></script>
+        <script src="assets/vendor/typed.js/typed.min.js"></script>
+        <script type="text/javascript">
+            var typed = new Typed('.typing',{
+              strings: ["Software Engineer", "Hodophile", "Yoga Trainer"],
+              loop: true,
+              typeSpeed: 65,
+              backSpeed: 65
+            });
+        </script>
+    </body>
+</html>
